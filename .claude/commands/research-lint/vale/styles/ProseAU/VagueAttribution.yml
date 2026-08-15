@@ -1,0 +1,15 @@
+extends: existence
+message: "Vague attribution: '%s'. Name the source or use first person."
+level: warning
+ignorecase: true
+tokens:
+  - "many researchers believe"
+  - "studies have shown"
+  - "studies suggest"
+  - "research suggests"
+  - "experts say"
+  - "experts agree"
+  - "many professionals"
+  - "it is generally accepted"
+  - "it is widely"
+  - "most people"

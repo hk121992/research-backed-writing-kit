@@ -1,0 +1,15 @@
+# Add your topic's proper nouns and corpus author surnames here, one per line.
+# Vale treats each line as a case-sensitive regex.
+ref_id
+graph-RAG
+graph\.sqlite
+frontmatter
+backlink
+backlinks
+factcheck
+quickcheck
+uncited
+UNCITED
+repo
+repos
+triaging

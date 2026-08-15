@@ -1,0 +1,12 @@
+extends: existence
+message: "Filler transition: '%s'. Drop it or restructure the paragraph."
+level: warning
+ignorecase: false
+tokens:
+  - '\bMoreover,'
+  - '\bFurthermore,'
+  - '\bAdditionally,'
+  - '\bThat being said,'
+  - '\bIn conclusion,'
+  - '\bIn summary,'
+  - '\bTo summari[sz]e,'

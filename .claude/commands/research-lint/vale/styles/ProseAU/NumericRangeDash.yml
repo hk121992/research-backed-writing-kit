@@ -1,0 +1,7 @@
+extends: existence
+message: "Use en-dash (–) for numeric ranges, not hyphen: %s"
+level: suggestion
+nonword: true
+tokens:
+  - '\b(19|20)\d{2}-(19|20)?\d{2}\b'
+  - '\bpp?\.\s?\d+-\d+\b'

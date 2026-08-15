@@ -1,0 +1,22 @@
+extends: existence
+message: "Banned AI-tell vocabulary: '%s' — use a word you would actually say in conversation. See STYLE-personal.template.md §Banned Patterns."
+level: error
+ignorecase: true
+tokens:
+  - delve
+  - tapestry
+  - landscape
+  - nuanced
+  - multifaceted
+  - harness
+  - paradigm shift
+  - at its core
+  - seamless
+  - seamlessly
+  - robust
+  - dive deep
+  - deep dive
+  - in today's
+  - in the age of
+  - in an era
+  - it is worth

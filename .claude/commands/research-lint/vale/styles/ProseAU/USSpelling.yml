@@ -1,0 +1,35 @@
+extends: substitution
+message: "Use Australian English: '%s' → '%s'"
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  '\borganiz(e|es|ed|ing|ation|ational|er)\b': organis$1
+  '\brealiz(e|es|ed|ing|ation)\b': realis$1
+  '\brecogniz(e|es|ed|ing|able)\b': recognis$1
+  '\banaly(z|zes|zed|zing)\b': analys$1
+  '\boptimiz(e|es|ed|ing|ation)\b': optimis$1
+  '\bcharacteriz(e|es|ed|ing)\b': characteris$1
+  '\bcategoriz(e|es|ed|ing)\b': categoris$1
+  '\bemphasiz(e|es|ed|ing)\b': emphasis$1
+  '\bsummariz(e|es|ed|ing)\b': summaris$1
+  '\bprioritiz(e|es|ed|ing)\b': prioritis$1
+  '\bcenter(s|ed|ing)?\b': centre$1
+  '\bmeter(s)?\b': metre$1
+  '\bbehavior(s|al|ally)?\b': behaviour$1
+  '\bcolor(s|ed|ing|ful)?\b': colour$1
+  '\blabor(s|ed|ing)?\b': labour$1
+  '\bfavor(s|ed|ing|able|ably|ite)?\b': favour$1
+  '\bhonor(s|ed|ing|able)?\b': honour$1
+  '\bhumor(s|ed|ing|ous)?\b': humour$1
+  '\brumor(s|ed|ing)?\b': rumour$1
+  '\bneighbor(s|ed|ing|hood)?\b': neighbour$1
+  '\bdefense(s|less)?\b': defence$1
+  '\boffense(s|less)?\b': offence$1
+  '\btravel(ing|ed|er|ers)\b': travell$1
+  '\bmodel(ing|ed|er|ers)\b': modell$1
+  '\bcancel(ing|ed|ation)\b': cancell$1
+  # -ed/-ing forms double the l in AU too (fulfilled, fulfilling) — only bare/-s/-ment differ
+  '\bfulfill(s|ment)?\b': fulfil$1
+  '\bparaly(z|zes|zed|zing)\b': paralys$1

@@ -1,0 +1,6 @@
+extends: existence
+message: "'Leverage' as a verb is banned. Use 'use', 'apply', 'exploit', 'draw on' (STYLE-personal.template.md §Banned Patterns). %s"
+level: error
+ignorecase: true
+tokens:
+  - '\bleverag(e|es|ed|ing)\b'

@@ -1,0 +1,7 @@
+extends: existence
+message: "Punctuation inside closing quote. Default is outside (Aussie/logical — STYLE-personal.template.md §Australian English Conventions). Inside is acceptable only when the quote is a standalone or multi-sentence quotation. Found: %s"
+level: warning
+nonword: true
+tokens:
+  - '[.,]["”]'
+  - "[.,]['’]"

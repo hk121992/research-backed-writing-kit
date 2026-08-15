@@ -1,0 +1,14 @@
+extends: existence
+message: "Hedge phrase — commit to the position: '%s'."
+level: warning
+ignorecase: true
+tokens:
+  - "it's worth noting that"
+  - "it is worth noting that"
+  - "it's important to consider"
+  - "it is important to consider"
+  - "one might argue that"
+  - "arguably"
+  - "perhaps it could be said"
+  - "some would say"
+  - "it could be argued"

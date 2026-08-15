@@ -1,0 +1,6 @@
+extends: occurrence
+message: "Em dashes exceed the budget (≤ 3 per piece). Count: %s. Style-guide §Punctuation."
+level: warning
+scope: text
+max: 3
+token: '—'

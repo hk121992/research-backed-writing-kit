@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "dictionaries": ["en-gb", "en_us", "softwareTerms", "filetypes", "companies", "people-names", "project-words"],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-words",
+      "path": "./project-words.txt",
+      "addWords": true
+    }
+  ],
+  "ignorePaths": ["**/node_modules/**", "**/.git/**", "**/references/**"],
+  "ignoreRegExpList": [
+    "\\[[a-z0-9-]+\\]",
+    "`[^`]+`",
+    "```[\\s\\S]*?```",
+    "https?://[^\\s)]+",
+    "/\\b[A-Z]{2,}[A-Z0-9-]*\\b/g"
+  ],
+  "allowCompoundWords": true,
+  "minWordLength": 4
+}

@@ -1,0 +1,6 @@
+extends: existence
+message: "Double space after sentence — single space is standard."
+level: suggestion
+nonword: true
+tokens:
+  - '\.\s{2,}[A-Z]'

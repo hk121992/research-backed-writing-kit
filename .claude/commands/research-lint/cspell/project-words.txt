@@ -1,0 +1,15 @@
+# Generic pipeline terms only. Add your topic's proper nouns and corpus
+# author surnames here, one word per line.
+sqlite
+graph-RAG
+frontmatter
+backlink
+backlinks
+factcheck
+quickcheck
+uncited
+repo
+repos
+triaging
+cspell
+markdownlint
